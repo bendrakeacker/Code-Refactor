@@ -1,1 +1,7 @@
 # Code-Refactor
+ 
+ This project is a refactoring of a mock website's HTML and CSS code to gain some beginner insight into what refactoring will look like in a company setting. As developers are transiitioning from HTML 4 to HTML 5, understanding both and being able to work between the two is an important skill.
+
+ Firstly, I refactored the HTML file. This wasn't too overwhelming; it was mostly changing division tags to semantic tags like section aside and main. Additionally, I changed some classes that could be ids and renamed classes and ids that were unecessarily long (ex: Search-Engine-Optimization to s-e-o).
+
+ Secondly I worked on the CSS. Other than having to modify class names and ids to the respective HTML file, all that I found necessary to refactor was found through pattern recognition. For example, my main element contained three sections, each with their own classname. Despite having different class names being laid out individually in the CSS file, these sections were styled with identical CSS attributes. To make the code more concise I combined any classes with the same CSS atrributes (ex: .lead, .brand, .cost), but decided not to give them all the same class name in case I deem it necessary to refactor this code once again. The refactored files are named "index.html" and "style.css," which were refactored from "og.html" and "og.css."
